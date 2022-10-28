@@ -10,8 +10,11 @@ class Animal:
         self.name = name
         self.sound = sound
 
-Cow = Animal(Cow, moo)
-Chicken = Animal(Chicken, cha-caw)
-Goat = Animal(Goat, maa)
-Dog = Animal(Dog, woof)
-Sheep = Animal(Sheep, bee)
+    def make_a_sound(self):
+        print(f" {self.sound} ")
+
+cow = Animal("Cow", "moo")
+chicken = Animal("Chicken", "cha-caw")
+goat = Animal("Goat", "maa")
+dog = Animal("Dog", "woof")
+sheep = Animal("Sheep", "bee")
